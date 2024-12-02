@@ -1,0 +1,24 @@
+//---------------------MOBILE------------------------
+
+@media (max-width: 834px){
+    body div {
+        display: grid;
+        grid-template:  "header  aside"
+                        "studies studies"
+                        "exp     exp"
+                        "project project"
+                        "footer  footer";
+             }
+
+        #personal-data {
+            grid-area: header;
+            box-sizing: content-box;
+            width: 60px;
+            height: 60px;
+            
+            .tittle {
+                color: #53FFBA;
+            }
+    }
+
+}
