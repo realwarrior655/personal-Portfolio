@@ -22,8 +22,6 @@
   body {
     background-image: url("images/background-pic-dark.png");
     background-size: cover;
-    -webkit-backdrop-filter: blur(16px);
-            backdrop-filter: blur(16px);
     background-attachment: scroll;
     animation: Op0To100 0.2s ease-in;
     display: grid;
