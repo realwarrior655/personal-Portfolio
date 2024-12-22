@@ -1,8 +1,6 @@
 //-----------------------DESKTOP---------------------
 
-@media (min-width: 835px) {
-
-    //Generalidades
+//Generalidades
 *{
     background-color: transparent;
     box-sizing: border-box;
@@ -23,6 +21,11 @@
         z-index: 2;
     }
 }
+
+@media (min-width: 835px) {
+
+    
+
     
     body {
         background-image: url("images/background-pic-dark.png");
@@ -42,11 +45,6 @@
         align-items: center;
 
 
-    }
-
-    #interactive {
-        position: absolute;
-        top: 60%;
     }
 
     #personal-data {
@@ -81,6 +79,7 @@
         #tecnologies {
             font-size: 18px;
             margin: 5px;
+            padding-top: 25px ;
         }
         div{
             display: flex;

@@ -58,3 +58,10 @@
   .switch-input-languaje:checked + .switch-label-languaje::after {
     transform: translateX(30px);
   }
+
+  @media (max-width: 834px){
+    .switch-languaje , #switch-tittle-languaje {
+      opacity: 0;
+      margin-left: 1000px;
+    }
+  }

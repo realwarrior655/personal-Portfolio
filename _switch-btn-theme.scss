@@ -56,3 +56,10 @@
   .switch-input:checked + .switch-label::after {
     transform: translateX(30px);
   }
+
+  @media (max-width: 834px){
+    .switch , #Switch-tittle {
+      opacity: 0;
+      margin-left: 1000px;
+    }
+  }
